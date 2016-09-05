@@ -43,3 +43,33 @@
     +   [Debug 3.4](https://scratch.mit.edu/projects/24269097/): Scratch Cat 喊 Jump 的時候， Gobo 應該要跳動，但是沒有，該怎麼辦？
     +   [Debug 3.5](https://scratch.mit.edu/projects/24269131/): 恐龍應該只在禮堂跳舞，可是現在恐龍出現在所有場景，並且不會動，該怎麼辦？
 
++   如何畫樹？
+    +   先畫樹幹，再畫樹葉：聖誕樹類型。
+        +   [例一](https://scratch.mit.edu/projects/115904117/)
+        +   [例二](https://scratch.mit.edu/projects/115903979/)
+        +   [例三](https://scratch.mit.edu/projects/115848139/)
+    +   畫樹葉，再畫樹枝，最後畫樹幹。
+        +   [例](https://scratch.mit.edu/projects/115838437/)
+    +   還有其他的方法嗎？
++   模組化
+    +   拆解成更小的問題
+        +   程式更可讀
+        +   可以重複使用
++   分而治之
+    +   吳邦一教授說：
+        +   大事化小事
+        +   小事化無事
++   遞迴
+    +   用更小規模的積木，構築更大的積木
+    +   用自己構築自己？
+        +   展開
+    +   無窮迴圈、無窮遞迴
+    +   透過遞迴畫樹
+        +   [例一](https://scratch.mit.edu/projects/115835376/)
+        +   [例二](https://scratch.mit.edu/projects/115837227/)
+        +   [例三](https://scratch.mit.edu/projects/115840771/)
+        +   [例四](https://scratch.mit.edu/projects/115688213/)
+    +   [同場加映](https://scratch.mit.edu/projects/115834535/)
++   作業
+    +   畫朵雪花
+    +   同場加映：[Koch snowflake](https://en.wikipedia.org/wiki/Koch_snowflake)
