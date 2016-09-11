@@ -13,6 +13,7 @@ ScratchX websocket extension 可讓 ScratchX 透過 websocket 與伺服器做即
 - [c9.io 官網](https://c9.io/)
 - [ScratchX websocket extension](http://sunset1995.github.io/ScratchX-ext/extensions/ws.js)
 - [讀取手機重力感應器的網頁](http://sunset1995.github.io/ScratchX-ext/static/gsensor.html)
+- [搓氣球範例](http://sunset1995.github.io/ScratchX-ext/examples/arrow-n-balloon.sbx)
 
 
 
