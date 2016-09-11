@@ -2,3 +2,4 @@
 
 ## [Scratch 程式設計](Scratch)
 ## [Python 程式設計](Python)
+## [APSC 考古講解](https://slides.com/tocknicsu/apcs/)
