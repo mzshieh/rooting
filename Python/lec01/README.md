@@ -177,3 +177,107 @@
 ### Task 3
 
 +   用 `pyautogui` 自由創作
+
+### 流程控制
+
++   [流程圖](https://automatetheboringstuff.com/chapter2/#calibre_link-1903)
++   真假值 (Boolean Values)
+    +   `True`
+    +   `False`
+    +   `true` 跟 `false` 是變數不是真假值
++   比較運算子
+    +   `==`
+        +   `float` 有精確度問題
+    +   `!=`
+    +   `<`
+    +   `<=`
+    +   `>`
+    +   `>=`
+    +   比較不同型態時
+        +   `str` 與 `int`
+        +   `int` 與 `float`
++   邏輯運算
+    +   `and`
+    +   `or`
+    +   `not`
+    +   優先順序: `not` > `and` > `or`
+
++   Conditions: 真假值運算式
++   替用真假值
+    +   Truthy values
+        +   非零的 `int`
+        +   非零的 `float`
+        +   非空的 `str`
+    +   Falsey values
+        +   `0`
+        +   `0.0`
+        +   `''`
+    +   還有更多 truthy value 與 falsey value。先不討論。
+
+### 選擇結構
+
++   Block of code
+    +   要加 `:`
+    +   縮排
+        +   可用空白或是 tab
+        +   建議用四個空白
+            +   習俗，你不遵守會被討厭。
++   `if`
++   `else`
++   `elif`
+
+### Task 4
+
+`int()` is not ideal to convert `float` into `int`. Write a program that round a `float` into its closest integer.
++   Use `int()`, `input()` and `print()`
++   You may assume the input is always a valid `float`
++   If there are two closest integers, then output the even one.
+    +   四捨、六入、五成雙
++   You might need to ask some questions in the [chatroom](https://chatroom-mzshieh.c9users.io)
+
+### 重複結構
+
++   `while`
+    +   `ctrl`+`C` to stop your (buggy) program
++   `for`
++   `range()`
+    +   `range(n)`: `0`, `1`, ..., `n-1`
+    +   `range(start,stop)`: `start`, `start+1`, ..., `stop-1`
+        +   Math: `[start,stop)`
+    +   `range(start,stop,step)`: `start`, `start+step`, ..., `start+k*step` where `k` is the maximum integer such that `start+k*step < stop`.
++   Nested loops
++   `break`
++   `continue`
+
+### Task 5
+
++   Draw [Rokumonsen](https://www.google.com.tw/search?q=Rokumonsen)
++   Draw Ichimonsen (一文銭)
++   Draw Sanjurokumonsen (三十六文銭)
+
+### Flow Control: Exception
+
++   It is complicated. We are not going to cover much about it.
+    +   Official [tutorial](https://docs.python.org/3/tutorial/errors.html)
++   [Example code](lec08.py)
+
+### Task 6
+
++   Ask user to input a 4-digit number such that
+    +   Must be an integer.
+        +  `'one two three four'` is not OK.
+        +  `1234.0` is not OK.
+        +  `1234` is OK.
+    +   Any digit appears at most once
+        +   `5566` is not OK.
+    +   Leading zero is acceptable.
+        +   `0123` is OK.
+    +   User's input have four digits
+        +   `123` is not OK.
++   Repeat until the user cooperates.
+
+### 隨機亂數
+
++   `import random`
+    +   `random.random()`
+    +   `random.randint()`
