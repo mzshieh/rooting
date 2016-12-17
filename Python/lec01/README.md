@@ -229,53 +229,54 @@
 
 ### Task 4
 
-`int()` is not ideal to convert `float` into `int`. Write a program that round a `float` into its closest integer.
-+   Use `int()`, `input()` and `print()`
-+   You may assume the input is always a valid `float`
-+   If there are two closest integers, then output the even one.
+`int()` 將 `float` 轉成 `int` 的方法，不見得適合科學計算使用。請撰寫一個程式，讀入一個浮點數，並把該數字轉換成最接近的整數。
++   請用 `int()`, `input()` and `print()`
++   你可以假定輸入總是可以轉換成 `float`
++   如果最接近的整數有兩個，請選擇偶數輸出。
     +   四捨、六入、五成雙
-+   You might need to ask some questions in the [chatroom](https://chatroom-mzshieh.c9users.io)
++   可在[聊天室](https://chatroom-mzshieh.c9users.io)發問
 
 ### 重複結構
 
 +   `while`
-    +   `ctrl`+`C` to stop your (buggy) program
+    +   `ctrl`+`C` 可中斷程式 (機制：製造紅字)
 +   `for`
 +   `range()`
     +   `range(n)`: `0`, `1`, ..., `n-1`
     +   `range(start,stop)`: `start`, `start+1`, ..., `stop-1`
         +   Math: `[start,stop)`
-    +   `range(start,stop,step)`: `start`, `start+step`, ..., `start+k*step` where `k` is the maximum integer such that `start+k*step < stop`.
-+   Nested loops
+    +   `range(start,stop,step)`: 從 `start` 起每次加 `step` 直到等於或超過 `stop` 為止
++   巢狀結構 (Nested loops)
 +   `break`
 +   `continue`
 
 ### Task 5
 
-+   Draw [Rokumonsen](https://www.google.com.tw/search?q=Rokumonsen)
-+   Draw Ichimonsen (一文銭)
-+   Draw Sanjurokumonsen (三十六文銭)
++   畫 [Rokumonsen](https://www.google.com.tw/search?q=Rokumonsen)
++   畫 Ichimonsen (一文銭)
++   畫 Sanjurokumonsen (三十六文銭)
 
-### Flow Control: Exception
+### 例外處理
 
-+   It is complicated. We are not going to cover much about it.
-    +   Official [tutorial](https://docs.python.org/3/tutorial/errors.html)
-+   [Example code](lec08.py)
++   我們先碰最簡單的
+    +   官方[教學](https://docs.python.org/3/tutorial/errors.html)
++   [範例程式碼](lec01-ex.py)
 
 ### Task 6
 
-+   Ask user to input a 4-digit number such that
-    +   Must be an integer.
-        +  `'one two three four'` is not OK.
-        +  `1234.0` is not OK.
-        +  `1234` is OK.
-    +   Any digit appears at most once
-        +   `5566` is not OK.
-    +   Leading zero is acceptable.
-        +   `0123` is OK.
-    +   User's input have four digits
-        +   `123` is not OK.
-+   Repeat until the user cooperates.
++   請使用者輸入一個二位整數
+    +   只包含阿拉伯數字
+        +   不接受 `'one two three four'`
+        +   不接受 `12.0`
+        +   接受 `12`
+    +   兩位數不可重複
+        +   不接受`55`
+    +   開頭是`0`可接受
+        +   可接受 `01`
+        +   不接受 `0`
+    +   使用者必須輸入兩位
+        +   不接受 `3`
++   直到使用者輸入合格資料才結束程式
 
 ### 隨機亂數
 
