@@ -28,7 +28,7 @@
 +   下載與安裝 Python
     +   [官網](https://www.python.org/)
     +   Download Python 3
-    +   [安裝套件](../install.md) 
+    +   [安裝套件](../install.md)
 +   互動世界面(Interactive Shell)
     +   執行 `python`
     +   執行 IDLE
@@ -106,7 +106,7 @@
 +   要記得存檔
     +   存成 `.py`
 +   執行
-    +   用 IDLE 
+    +   用 IDLE
     +   用終端機(?)
 +   註解
     +   用 `#` 開頭的就是
@@ -235,6 +235,10 @@
 +   如果最接近的整數有兩個，請選擇偶數輸出。
     +   四捨、六入、五成雙
 +   可在[聊天室](https://chatroom-mzshieh.c9users.io)發問
+
+### Take Home
+
+請寫一支程式判斷一個年份是否是閏年。閏年的相關定義可以參考[這裡](https://zh.wikipedia.org/wiki/閏年)。
 
 ### 重複結構
 
