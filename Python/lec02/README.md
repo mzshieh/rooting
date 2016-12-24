@@ -2,6 +2,17 @@
 
 ### 發問用[聊天室](https://chatroom-mzshieh.c9users.io/)
 
+### APCS
+
++   [Cloud 9](https://c9.io/)
+    +   Terminal
+        +   `touch`
+        +   `ls`
+        +   `cat`
+        +   `python3`
+            +   ctrl+d
+        +   用 `<` 可以將檔案轉變為程式的輸入。
+
 ### [免費入門書](http://automatetheboringstuff.com/)
 
 +   [中文版](https://www.tenlong.com.tw/items/9864762729?item_id=1026244)
@@ -25,6 +36,13 @@
 +   變數：儲存資料的箱子
     +   賦值 (Assignment)
     +   變數名稱[限制](https://automatetheboringstuff.com/chapter1/#calibre_link-107)
++   `list`
+    +   可以視為一些有編號的變數
+    +   `a_list=[0,1,2,3,4]`
+        +   `a_list[0]`為第一個
+        +   `a_list[1]`為第二個
+        +   `a_list[-1]`為最後一個
+        +   `a_list[-2]`為倒數第二個
 +   函數 (Function)
     +   可以另外翻譯為「功能」
         +   通常也是一連串的指令
@@ -38,8 +56,21 @@
         +   在很多程式設計課，這差不多就是你一開始能做的所有事情。
         +   印到檔案
             +   `print('hi',file=out)`
+        +   列印 `list`
+            +   `print(*some_list)`
+        +   間隔字串
+            +   `print(123,456,sep=',')`
+            +   內定是`' '`
+        +   換行字串
+            +   `print(123,456,end=' haha\n')`
+            +   內定是`'\n'` (單一個換行)
     +   `input()`
         +   從輸入讀個一行進來，型態是`str`(字串)。
+        +   `input().strip().split()`
+            +   去除前後的空白字元之後，依據中間的空白切斷，成為一個`list`。
+            +   `split(',')`可用`','`切開
+            +   `[int(x) for x in input().strip().split()]`
+                +   將整行以空白隔開的整數，讀入成一個`list`
     +   `len()`
         +   算個長度。現在能算的是`str`(字串)的長度
     +   `str()`
@@ -66,42 +97,6 @@
     +   用終端機(?)
 +   註解
     +   用 `#` 開頭的就是
-
-### `pyautogui` 套件
-
-+   先`import pyautogui`
-
-+   滑鼠相關
-    +   取得畫面大小
-        +   `width, height = pyautogui.size()`
-    +   取得滑鼠座標
-        +   `x, y = pyautogui.position()`
-    +   The coordinate system
-        +   上小下大、左小右大
-    +   移動
-        +   絕對座標: `pyautogui.moveTo(x, y, duration)`
-        +   相對座標: `pyautogui.moveRel(x, y, duration)`
-        +   可省略消耗時間 `duration`
-    +   點擊
-        +   `pyautogui.click()`
-        +   `pyautogui.click(x, y)`
-        +   `pyautogui.rightClick(x, y)`
-        +   `pyautogui.doubleClick(x, y)`
-    +   拖曳
-        +   絕對座標: `pyautogui.dragTo(x, y, duration)`
-        +   相對座標: `pyautogui.dragRel(x, y, duration)`
-    +   滾輪
-        +   `pyautogui.scroll(y)`
-
-+   鍵盤相關
-    +   打字
-        +   `pyautogui.typewrite(text,delay)`
-    +   按
-        +   `pyautogui.press(key)`
-        +   [Key table](https://automatetheboringstuff.com/chapter18/#calibre_link-36)
-    +   熱鍵
-        +   `pyautogui.hotkey(key1, key2, ..., keys)`
-        +   範例: `pyautogui.hotkey('ctrl', 'c')`
 
 ### 流程控制
 
