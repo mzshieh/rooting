@@ -182,7 +182,7 @@ else:
 
 +   我們先碰最簡單的
     +   官方[教學](https://docs.python.org/3/tutorial/errors.html)
-+   [範例程式碼](lec01-ex.py)
++   [範例程式碼](lec02-ex.py)
 
 ### Task 6
 
