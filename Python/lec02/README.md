@@ -11,12 +11,20 @@
 +   [Cloud 9](https://c9.io/)
     +   Terminal
         +   `touch`
+            +   製造空白檔案
+            +   `touch some.py`
+            +   `touch input.txt`
         +   `ls`
+            +   確認目錄下檔案
         +   `cat`
+            +   確認檔案內容
+            +   `cat some.py`
+            +   `cat input.txt`
         +   `python3`
-            +   ctrl+d
-        +   用 `<` 可以將檔案轉變為程式的輸入。
-
+            +   直接執行是 shell ，可按 ctrl+d 結束
+            +   `python3 some.py` 執行 `some.py` 程式碼
+            +   用 `<` 可以將檔案轉變為程式的輸入。
+                +   `python3 some.py < input.txt`
 
 ### Python 基礎
 
