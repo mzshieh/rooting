@@ -1,6 +1,6 @@
 lengths = [int(x) for x in input().strip().split()]
 lengths.sort()
-print(*length)
+print(*lengths)
 
 a, b, c = lengths
 if a+b<=c:
