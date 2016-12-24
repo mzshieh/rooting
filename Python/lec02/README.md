@@ -176,9 +176,7 @@ else:
 
 ### Task 5
 
-+   畫 [Rokumonsen](https://www.google.com.tw/search?q=Rokumonsen)
-+   畫 Ichimonsen (一文銭)
-+   畫 Sanjurokumonsen (三十六文銭)
++   用文字介面畫聖誕樹
 
 ### 例外處理
 
