@@ -2,6 +2,10 @@
 
 ### 發問用[聊天室](https://chatroom-mzshieh.c9users.io/)
 
+### [免費Python入門網路書](http://automatetheboringstuff.com/)
+
++   [紙本中文版](https://www.tenlong.com.tw/items/9864762729?item_id=1026244)
+
 ### APCS
 
 +   [Cloud 9](https://c9.io/)
@@ -13,9 +17,6 @@
             +   ctrl+d
         +   用 `<` 可以將檔案轉變為程式的輸入。
 
-### [免費入門書](http://automatetheboringstuff.com/)
-
-+   [中文版](https://www.tenlong.com.tw/items/9864762729?item_id=1026244)
 
 ### Python 基礎
 
